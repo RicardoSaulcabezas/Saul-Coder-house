@@ -469,6 +469,7 @@ li a.active, li a:hover {
   .img-1 {
     width: 285px;
     height: 200px;
+    text-align: justify;
     margin: 0;
     margin-right: 10px;
     margin-left: 10px; }
