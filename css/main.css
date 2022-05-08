@@ -18,16 +18,16 @@ header, .articulo, .articulo.destacado, .sidebar, .contenedor .footer {
     height: 100%;
     object-fit: cover;
     display: flex;
-    border-radius: 10px; }
+    border-radius: 0.625em; }
   * .contenedor-paisaje2 {
     height: 25em;
-    margin-left: 4px;
-    border-radius: 5px; }
+    margin-left: 0.25em;
+    border-radius: 0.321em; }
   * .tamaño-imagen {
-    width: 800px;
-    height: 300px;
-    margin: 10px auto;
-    margin-bottom: 100px;
+    width: 60em;
+    height: 18.75em;
+    margin: 0.625em auto;
+    margin-bottom: 6.25em;
     display: block;
     border-radius: 10px;
     border-style: hidden;
@@ -37,7 +37,7 @@ header, .articulo, .articulo.destacado, .sidebar, .contenedor .footer {
   * .imagen3 {
     width: 25em;
     height: 19em;
-    border-radius: 10px; }
+    border-radius: 0.625em; }
   * .checkbtn {
     font-size: 30px;
     color: #fff;
@@ -52,8 +52,9 @@ header, .articulo, .articulo.destacado, .sidebar, .contenedor .footer {
   * #check {
     display: none; }
   * .accordion {
-    width: 900px;
-    margin-left: 180px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px; }
     * .accordion p {
       background-color: #70d2ff; }
@@ -120,7 +121,8 @@ li a.active, li a:hover {
   .articulo .extracto {
     font-size: 1em;
     font-weight: 300;
-    color: #727779; }
+    color: #727779;
+    text-align: center; }
   .articulo .titulo {
     font-size: 1.25em;
     font-weight: 300;
@@ -261,9 +263,11 @@ li a.active, li a:hover {
   background-color: #b0def1; }
   .fondo h2 {
     background-color: #a3c4e6;
-    display: inline;
     border-radius: 5px;
-    padding: 10px; }
+    padding: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: auto; }
   .fondo h3 {
     font-size: 22px;
     margin-top: 20px;
@@ -275,7 +279,9 @@ li a.active, li a:hover {
     color: #727779;
     margin-bottom: 50px;
     text-align: center;
-    padding: 1em; }
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto; }
   .fondo .titulo {
     font-size: 1.25em;
     font-weight: 300;

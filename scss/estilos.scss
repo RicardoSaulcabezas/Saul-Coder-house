@@ -20,20 +20,20 @@ $color-principal:rgb(176, 222, 241);
         @include size;
         object-fit: cover;
         display: flex; 
-		border-radius: 10px;
+		border-radius: 0.625em;
 	}
 	.contenedor-paisaje2{
 		height: 25em;
-		margin-left: 4px;
-		border-radius: 5px;
+		margin-left: 0.25em;
+		border-radius: 0.321em;
 		   
 	}
 
     .tamaño-imagen{
-        width: 800px;
-        height: 300px;
-        margin:10px auto;
-		margin-bottom: 100px;
+        width: 60em;
+        height: 18.75em;
+        margin: 0.625em auto;
+		margin-bottom: 6.25em;
         display: block;
         border-radius: map-get($map: $border, $key: border-radius);
 		border-style:hidden ;
@@ -50,7 +50,7 @@ $color-principal:rgb(176, 222, 241);
     .imagen3{
         width: 25em;
         height: 19em;
-		border-radius: 10px;
+		border-radius: 0.625em;
 		
 
     }
@@ -74,8 +74,9 @@ $color-principal:rgb(176, 222, 241);
         display: none;
     }
 	.accordion{
-		width: 900px;
-		margin-left: 180px;
+		width: 1000px;
+		margin-left: auto ;
+		margin-right: auto;
 		margin-bottom: 30px;
 		
 		p{
@@ -183,6 +184,8 @@ li a.active, li a:hover{
         font-size: 1em; 
         font-weight: 300;
         color: #727779;
+		text-align: center;
+		
         
     }
     .titulo {
@@ -370,9 +373,11 @@ li a.active, li a:hover{
 
 	h2{
         background-color: #a3c4e6;
-		display: inline;
 		border-radius: 5px;	
 		padding: 10px;	
+		width: 200px;
+		margin-left: 20px;
+		margin-right: auto;
 		
 	}
 
@@ -391,7 +396,9 @@ li a.active, li a:hover{
         color: #727779;
         margin-bottom: 50px;
         text-align: center;
-		padding: 1em;
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
     }
     
     .titulo{
